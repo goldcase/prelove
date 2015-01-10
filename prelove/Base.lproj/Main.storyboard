@@ -222,7 +222,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="prelove" id="Y8k-US-OfI">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ZfI-tQ-5gk"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="ZfI-tQ-5gk">
+                            <connections>
+                                <segue destination="BYZ-38-t0r" kind="show" id="jPW-85-gr3"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="n4G-H3-ocg" userLabel="First Responder" sceneMemberID="firstResponder"/>
