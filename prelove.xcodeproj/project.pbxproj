@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		B33EC0D51A60C2CB00A9BEE4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EC0D41A60C2CB00A9BEE4 /* main.m */; };
 		B33EC0D81A60C2CB00A9BEE4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EC0D71A60C2CB00A9BEE4 /* AppDelegate.m */; };
-		B33EC0DB1A60C2CB00A9BEE4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EC0DA1A60C2CB00A9BEE4 /* ViewController.m */; };
 		B33EC0DE1A60C2CB00A9BEE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B33EC0DC1A60C2CB00A9BEE4 /* Main.storyboard */; };
 		B33EC0E01A60C2CB00A9BEE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B33EC0DF1A60C2CB00A9BEE4 /* Images.xcassets */; };
 		B33EC0E31A60C2CB00A9BEE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B33EC0E11A60C2CB00A9BEE4 /* LaunchScreen.xib */; };
 		B33EC0EF1A60C2CC00A9BEE4 /* preloveTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EC0EE1A60C2CC00A9BEE4 /* preloveTests.m */; };
+		B33EC0FA1A6113D700A9BEE4 /* AddLoveItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EC0F91A6113D700A9BEE4 /* AddLoveItemViewController.m */; };
+		B33EC0FD1A61163700A9BEE4 /* LoveListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B33EC0FC1A61163700A9BEE4 /* LoveListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,16 @@
 		B33EC0D41A60C2CB00A9BEE4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B33EC0D61A60C2CB00A9BEE4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B33EC0D71A60C2CB00A9BEE4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B33EC0D91A60C2CB00A9BEE4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B33EC0DA1A60C2CB00A9BEE4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B33EC0DD1A60C2CB00A9BEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B33EC0DF1A60C2CB00A9BEE4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B33EC0E21A60C2CB00A9BEE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B33EC0E81A60C2CC00A9BEE4 /* preloveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = preloveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B33EC0ED1A60C2CC00A9BEE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B33EC0EE1A60C2CC00A9BEE4 /* preloveTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = preloveTests.m; sourceTree = "<group>"; };
+		B33EC0F81A6113D700A9BEE4 /* AddLoveItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddLoveItemViewController.h; sourceTree = "<group>"; };
+		B33EC0F91A6113D700A9BEE4 /* AddLoveItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddLoveItemViewController.m; sourceTree = "<group>"; };
+		B33EC0FB1A61163700A9BEE4 /* LoveListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoveListTableViewController.h; sourceTree = "<group>"; };
+		B33EC0FC1A61163700A9BEE4 /* LoveListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoveListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +86,11 @@
 			children = (
 				B33EC0D61A60C2CB00A9BEE4 /* AppDelegate.h */,
 				B33EC0D71A60C2CB00A9BEE4 /* AppDelegate.m */,
-				B33EC0D91A60C2CB00A9BEE4 /* ViewController.h */,
-				B33EC0DA1A60C2CB00A9BEE4 /* ViewController.m */,
 				B33EC0DC1A60C2CB00A9BEE4 /* Main.storyboard */,
+				B33EC0FB1A61163700A9BEE4 /* LoveListTableViewController.h */,
+				B33EC0FC1A61163700A9BEE4 /* LoveListTableViewController.m */,
+				B33EC0F81A6113D700A9BEE4 /* AddLoveItemViewController.h */,
+				B33EC0F91A6113D700A9BEE4 /* AddLoveItemViewController.m */,
 				B33EC0DF1A60C2CB00A9BEE4 /* Images.xcassets */,
 				B33EC0E11A60C2CB00A9BEE4 /* LaunchScreen.xib */,
 				B33EC0D21A60C2CB00A9BEE4 /* Supporting Files */,
@@ -219,9 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B33EC0DB1A60C2CB00A9BEE4 /* ViewController.m in Sources */,
 				B33EC0D81A60C2CB00A9BEE4 /* AppDelegate.m in Sources */,
+				B33EC0FD1A61163700A9BEE4 /* LoveListTableViewController.m in Sources */,
 				B33EC0D51A60C2CB00A9BEE4 /* main.m in Sources */,
+				B33EC0FA1A6113D700A9BEE4 /* AddLoveItemViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
